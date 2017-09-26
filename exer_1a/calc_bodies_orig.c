@@ -26,6 +26,7 @@ void calc_bodies(struct vec_2d *r,
     // and velocity of the respective element at time `delta * t`
     for (size_t t = 1; t <= k; t++) {
 
+	// calculate `a_i / G` for each value of `i`
 	for (int i = 0; i < n; i++) {
 	    a_tilde[i] = calc_a_i_tilde(r, m, i, n);
 	}
