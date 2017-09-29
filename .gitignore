@@ -1,4 +1,5 @@
 *.o
+*.Rhistory
 
 exer_1a/Assignment 1a.pdf
 exer_1a/exer_1a
